@@ -81,17 +81,6 @@ class OrderRepository:
         # Confirma este pedido
         self.db_order.update_one({"order_id": order_id}, {"status": "confirmado"})
 
-        # Auto-rejeita outros pedidos pendentes que contenham pontos já vendidos
-        all_pending = self.db_order.fetch_all({"status": "pendente"})
-        sold_points = set(data_order.points)
-        for pending in all_pending:
-            if pending["order_id"] == order_id:
-                continue
-            conflicting = set(pending["points"]) & sold_points
-            if conflicting:
-                self.db_order.update_one({"order_id": pending["order_id"]}, {"status": "rejeitado"})
-                logging.info(f"{datetime.now()}: Pedido {pending['order_id']} auto-rejeitado (pontos conflitantes: {conflicting})")
-
         obj_return = self.db_order.fetch_one({"order_id": order_id})
         return Order(
             order_id=obj_return["order_id"], points=obj_return["points"],
