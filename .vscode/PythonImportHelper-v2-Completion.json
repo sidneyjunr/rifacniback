@@ -1,0 +1,943 @@
+[
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "core.security",
+        "description": "core.security",
+        "isExtraImport": true,
+        "detail": "core.security",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "importPath": "core.security",
+        "description": "core.security",
+        "isExtraImport": true,
+        "detail": "core.security",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "importPath": "core.security",
+        "description": "core.security",
+        "isExtraImport": true,
+        "detail": "core.security",
+        "documentation": {}
+    },
+    {
+        "label": "verify_user",
+        "importPath": "core.security",
+        "description": "core.security",
+        "isExtraImport": true,
+        "detail": "core.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "core.security",
+        "description": "core.security",
+        "isExtraImport": true,
+        "detail": "core.security",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "repository.UserRepository",
+        "description": "repository.UserRepository",
+        "isExtraImport": true,
+        "detail": "repository.UserRepository",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "repository.UserRepository",
+        "description": "repository.UserRepository",
+        "isExtraImport": true,
+        "detail": "repository.UserRepository",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.Users",
+        "description": "models.Users",
+        "isExtraImport": true,
+        "detail": "models.Users",
+        "documentation": {}
+    },
+    {
+        "label": "UserNoPassword",
+        "importPath": "models.Users",
+        "description": "models.Users",
+        "isExtraImport": true,
+        "detail": "models.Users",
+        "documentation": {}
+    },
+    {
+        "label": "UserGetToken",
+        "importPath": "models.Users",
+        "description": "models.Users",
+        "isExtraImport": true,
+        "detail": "models.Users",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "importPath": "models.Users",
+        "description": "models.Users",
+        "isExtraImport": true,
+        "detail": "models.Users",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.Users",
+        "description": "models.Users",
+        "isExtraImport": true,
+        "detail": "models.Users",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.Users",
+        "description": "models.Users",
+        "isExtraImport": true,
+        "detail": "models.Users",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "isExtraImport": true,
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "isExtraImport": true,
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "isExtraImport": true,
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "isExtraImport": true,
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "isExtraImport": true,
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "isExtraImport": true,
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "isExtraImport": true,
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "routes.cartelas",
+        "description": "routes.cartelas",
+        "isExtraImport": true,
+        "detail": "routes.cartelas",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "routes.cartelas",
+        "description": "routes.cartelas",
+        "isExtraImport": true,
+        "detail": "routes.cartelas",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "routes.pedidos",
+        "description": "routes.pedidos",
+        "isExtraImport": true,
+        "detail": "routes.pedidos",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "routes.pedidos",
+        "description": "routes.pedidos",
+        "isExtraImport": true,
+        "detail": "routes.pedidos",
+        "documentation": {}
+    },
+    {
+        "label": "dotenv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidTokenError",
+        "importPath": "jwt.exceptions",
+        "description": "jwt.exceptions",
+        "isExtraImport": true,
+        "detail": "jwt.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "pydantic.types",
+        "description": "pydantic.types",
+        "isExtraImport": true,
+        "detail": "pydantic.types",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "importPath": "core.configs",
+        "description": "core.configs",
+        "isExtraImport": true,
+        "detail": "core.configs",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "importPath": "core.configs",
+        "description": "core.configs",
+        "isExtraImport": true,
+        "detail": "core.configs",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "importPath": "core.configs",
+        "description": "core.configs",
+        "isExtraImport": true,
+        "detail": "core.configs",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo.mongo_client",
+        "description": "pymongo.mongo_client",
+        "isExtraImport": true,
+        "detail": "pymongo.mongo_client",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo.mongo_client",
+        "description": "pymongo.mongo_client",
+        "isExtraImport": true,
+        "detail": "pymongo.mongo_client",
+        "documentation": {}
+    },
+    {
+        "label": "ServerApi",
+        "importPath": "pymongo.server_api",
+        "description": "pymongo.server_api",
+        "isExtraImport": true,
+        "detail": "pymongo.server_api",
+        "documentation": {}
+    },
+    {
+        "label": "ServerApi",
+        "importPath": "pymongo.server_api",
+        "description": "pymongo.server_api",
+        "isExtraImport": true,
+        "detail": "pymongo.server_api",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "models.Order",
+        "description": "models.Order",
+        "isExtraImport": true,
+        "detail": "models.Order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "models.Order",
+        "description": "models.Order",
+        "isExtraImport": true,
+        "detail": "models.Order",
+        "documentation": {}
+    },
+    {
+        "label": "Rifa",
+        "importPath": "models.Rifa",
+        "description": "models.Rifa",
+        "isExtraImport": true,
+        "detail": "models.Rifa",
+        "documentation": {}
+    },
+    {
+        "label": "RifaFront",
+        "importPath": "models.Rifa",
+        "description": "models.Rifa",
+        "isExtraImport": true,
+        "detail": "models.Rifa",
+        "documentation": {}
+    },
+    {
+        "label": "RifaPhone",
+        "importPath": "models.Rifa",
+        "description": "models.Rifa",
+        "isExtraImport": true,
+        "detail": "models.Rifa",
+        "documentation": {}
+    },
+    {
+        "label": "Rifa",
+        "importPath": "models.Rifa",
+        "description": "models.Rifa",
+        "isExtraImport": true,
+        "detail": "models.Rifa",
+        "documentation": {}
+    },
+    {
+        "label": "RifaRepository",
+        "importPath": "repository.RifaRepository",
+        "description": "repository.RifaRepository",
+        "isExtraImport": true,
+        "detail": "repository.RifaRepository",
+        "documentation": {}
+    },
+    {
+        "label": "OrderRepository",
+        "importPath": "repository.OrderRepository",
+        "description": "repository.OrderRepository",
+        "isExtraImport": true,
+        "detail": "repository.OrderRepository",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
+        "kind": 2,
+        "importPath": "api.login",
+        "description": "api.login",
+        "peekOfCode": "def verify_token(current_user: User = Depends(get_current_user)):\n    if current_user is None:\n        return {\"error\": \"Not authorized\"}\n    return {\"message\": \"Token is valid\"}",
+        "detail": "api.login",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "api.login",
+        "description": "api.login",
+        "peekOfCode": "router = APIRouter(tags=[\"Login\"])\n# Rota de login\n@router.post(\"/token\")\nasync def login_for_access_token(\n    form_data: UserGetToken):\n    db = Connection(\"users\")\n    user_repository = UserRepository(db)\n    user = user_repository.get_user_by_username(form_data.username)\n    if not pwd_context.verify(form_data.password, user[\"password\"]):\n        raise HTTPException(status_code=401, detail=\"Invalid credentials\")",
+        "detail": "api.login",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "api.main",
+        "description": "api.main",
+        "peekOfCode": "app = FastAPI(title=\"API de Rifas\", description=\"API para gerenciamento de rifas\", version=\"1.0\")\n# CORS middleware\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Permitir qualquer origem\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n#app.include_router(login_router)",
+        "detail": "api.main",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "core.configs",
+        "description": "core.configs",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"SECRET_KEY\")\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7",
+        "detail": "core.configs",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "core.configs",
+        "description": "core.configs",
+        "peekOfCode": "ALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7",
+        "detail": "core.configs",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "core.configs",
+        "description": "core.configs",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7",
+        "detail": "core.configs",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "core.security",
+        "description": "core.security",
+        "peekOfCode": "def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:\n        expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\n# Função de hash da senha",
+        "detail": "core.security",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "core.security",
+        "description": "core.security",
+        "peekOfCode": "def hash_password(password: str):\n    return pwd_context.hash(password)\ndef verify_user(user:User)->bool:\n    db = Connection(\"users\")\n    user_repository = UserRepository(db)\n    existing_user = user_repository.get_user_by_username(user.username)\n    existing_email = user_repository.get_user_by_email(user.email)\n    pattern_email = r\"[a-zA-Z0-9._]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}\"\n    pattern_password = r\"^(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&#.])[A-Za-z\\d@$!%#.*?&]{8,}$\"\n    if existing_user:",
+        "detail": "core.security",
+        "documentation": {}
+    },
+    {
+        "label": "verify_user",
+        "kind": 2,
+        "importPath": "core.security",
+        "description": "core.security",
+        "peekOfCode": "def verify_user(user:User)->bool:\n    db = Connection(\"users\")\n    user_repository = UserRepository(db)\n    existing_user = user_repository.get_user_by_username(user.username)\n    existing_email = user_repository.get_user_by_email(user.email)\n    pattern_email = r\"[a-zA-Z0-9._]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}\"\n    pattern_password = r\"^(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&#.])[A-Za-z\\d@$!%#.*?&]{8,}$\"\n    if existing_user:\n        raise HTTPException(status_code=400, detail=\"Username already registered\")\n    if existing_email:",
+        "detail": "core.security",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "core.security",
+        "description": "core.security",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\nrouter = APIRouter()\nasync def get_current_user(token: Annotated[str, Depends(oauth2_scheme)]):\n    logging.info(f\"Token: {token}\")\n    db = Connection(\"users\")\n    user_repository = UserRepository(db)\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",",
+        "detail": "core.security",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "core.security",
+        "description": "core.security",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\nrouter = APIRouter()\nasync def get_current_user(token: Annotated[str, Depends(oauth2_scheme)]):\n    logging.info(f\"Token: {token}\")\n    db = Connection(\"users\")\n    user_repository = UserRepository(db)\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},",
+        "detail": "core.security",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "core.security",
+        "description": "core.security",
+        "peekOfCode": "router = APIRouter()\nasync def get_current_user(token: Annotated[str, Depends(oauth2_scheme)]):\n    logging.info(f\"Token: {token}\")\n    db = Connection(\"users\")\n    user_repository = UserRepository(db)\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )",
+        "detail": "core.security",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "kind": 6,
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "peekOfCode": "class Connection:\n    def __init__(self,collection:str):\n        \"\"\"Inicializa uma instância de conexão com o banco de dados\"\"\"\n        load_dotenv()  # Load environment variables from .env file\n        try:\n            # Get MongoDB credentials from environment variables\n            mongo_uri = \"mongodb+srv://root:X9WWeafBs00noCD7@teste.p64aple.mongodb.net/?retryWrites=true&w=majority&appName=Teste\"\n            if not mongo_uri:\n                raise ValueError(\"MONGO_URI environment variable not set\")\n            # Create a MongoClient instance",
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "models.Order",
+        "description": "models.Order",
+        "peekOfCode": "class Order(BaseModel):\n    \"\"\"Modelo para pedidos\"\"\"\n    order_id:int\n    points:list[int]\n    order_date:str\n    order_hour:str\n    status:str = \"pendente\"\n    phone:str\n    owner:str = \"none\"",
+        "detail": "models.Order",
+        "documentation": {}
+    },
+    {
+        "label": "Rifa",
+        "kind": 6,
+        "importPath": "models.Rifa",
+        "description": "models.Rifa",
+        "peekOfCode": "class Rifa(BaseModel):\n    \"\"\"Modelo para rifas\"\"\"\n    number:int\n    draw_date:str\n    draw_hour:str\n    status:str = \"disponivel\"\n    phone:str = \"99999999999\"\n    owner:str = \"none\"\nclass RifaFront(BaseModel):\n    number:int",
+        "detail": "models.Rifa",
+        "documentation": {}
+    },
+    {
+        "label": "RifaFront",
+        "kind": 6,
+        "importPath": "models.Rifa",
+        "description": "models.Rifa",
+        "peekOfCode": "class RifaFront(BaseModel):\n    number:int\n    status:str\nclass RifaPhone(BaseModel):\n    number:int\n    draw_date:str",
+        "detail": "models.Rifa",
+        "documentation": {}
+    },
+    {
+        "label": "RifaPhone",
+        "kind": 6,
+        "importPath": "models.Rifa",
+        "description": "models.Rifa",
+        "peekOfCode": "class RifaPhone(BaseModel):\n    number:int\n    draw_date:str",
+        "detail": "models.Rifa",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "models.Users",
+        "description": "models.Users",
+        "peekOfCode": "class Token(BaseModel):\n    \"\"\"Classe modelo para token de autenticação\"\"\"\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    \"\"\"Modelo para token com usuário\"\"\"\n    username: str | None = None\nclass User(BaseModel):\n    \"\"\"Modelo para usuário\"\"\"\n    username: str",
+        "detail": "models.Users",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "kind": 6,
+        "importPath": "models.Users",
+        "description": "models.Users",
+        "peekOfCode": "class TokenData(BaseModel):\n    \"\"\"Modelo para token com usuário\"\"\"\n    username: str | None = None\nclass User(BaseModel):\n    \"\"\"Modelo para usuário\"\"\"\n    username: str\n    full_name: str\n    email: str\n    password: str\nclass UserGetToken(BaseModel):",
+        "detail": "models.Users",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "models.Users",
+        "description": "models.Users",
+        "peekOfCode": "class User(BaseModel):\n    \"\"\"Modelo para usuário\"\"\"\n    username: str\n    full_name: str\n    email: str\n    password: str\nclass UserGetToken(BaseModel):\n    \"\"\"Modelo para autenticação de usuário que acessa uma rota\"\"\"\n    username: str\n    password: str",
+        "detail": "models.Users",
+        "documentation": {}
+    },
+    {
+        "label": "UserGetToken",
+        "kind": 6,
+        "importPath": "models.Users",
+        "description": "models.Users",
+        "peekOfCode": "class UserGetToken(BaseModel):\n    \"\"\"Modelo para autenticação de usuário que acessa uma rota\"\"\"\n    username: str\n    password: str\nclass UserNoPassword(BaseModel):\n    \"\"\"Modelo para usuário sem senha\"\"\"\n    username: str\n    full_name: str\n    email: str\nclass UserInDB(BaseModel):",
+        "detail": "models.Users",
+        "documentation": {}
+    },
+    {
+        "label": "UserNoPassword",
+        "kind": 6,
+        "importPath": "models.Users",
+        "description": "models.Users",
+        "peekOfCode": "class UserNoPassword(BaseModel):\n    \"\"\"Modelo para usuário sem senha\"\"\"\n    username: str\n    full_name: str\n    email: str\nclass UserInDB(BaseModel):\n    \"\"\"Modelo para usuário no banco de dados\"\"\"\n    hashed_password: str\nclass Card(BaseModel):\n    \"\"\"Modelo para cartões\"\"\"",
+        "detail": "models.Users",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "kind": 6,
+        "importPath": "models.Users",
+        "description": "models.Users",
+        "peekOfCode": "class UserInDB(BaseModel):\n    \"\"\"Modelo para usuário no banco de dados\"\"\"\n    hashed_password: str\nclass Card(BaseModel):\n    \"\"\"Modelo para cartões\"\"\"\n    id:int\n    question:str\n    answer:str\n    category_id:int\n    theme_id:int",
+        "detail": "models.Users",
+        "documentation": {}
+    },
+    {
+        "label": "Card",
+        "kind": 6,
+        "importPath": "models.Users",
+        "description": "models.Users",
+        "peekOfCode": "class Card(BaseModel):\n    \"\"\"Modelo para cartões\"\"\"\n    id:int\n    question:str\n    answer:str\n    category_id:int\n    theme_id:int\nclass Category(BaseModel):\n    \"\"\"Modelo para categorias\"\"\"\n    id:int",
+        "detail": "models.Users",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "kind": 6,
+        "importPath": "models.Users",
+        "description": "models.Users",
+        "peekOfCode": "class Category(BaseModel):\n    \"\"\"Modelo para categorias\"\"\"\n    id:int\n    category_name:str\nclass Theme(BaseModel):\n    \"\"\"Modelo para temas\"\"\"\n    id:int\n    theme_name:str\n    category_id:int",
+        "detail": "models.Users",
+        "documentation": {}
+    },
+    {
+        "label": "Theme",
+        "kind": 6,
+        "importPath": "models.Users",
+        "description": "models.Users",
+        "peekOfCode": "class Theme(BaseModel):\n    \"\"\"Modelo para temas\"\"\"\n    id:int\n    theme_name:str\n    category_id:int",
+        "detail": "models.Users",
+        "documentation": {}
+    },
+    {
+        "label": "OrderRepository",
+        "kind": 6,
+        "importPath": "repository.OrderRepository",
+        "description": "repository.OrderRepository",
+        "peekOfCode": "class OrderRepository:\n    def __init__(self,db_order:Connection, db_cartelas:Connection):\n        self.db_order = db_order\n        self.db_cartelas = db_cartelas\n    def create(self,order:Order):\n        \"\"\"\n    order_id:int\n    points:list\n    order_date:str\n    order_hour:str",
+        "detail": "repository.OrderRepository",
+        "documentation": {}
+    },
+    {
+        "label": "RifaRepository",
+        "kind": 6,
+        "importPath": "repository.RifaRepository",
+        "description": "repository.RifaRepository",
+        "peekOfCode": "class RifaRepository:\n    def __init__(self, db:Connection):\n        self.db = db\n    def getAll(self):\n        try:\n            data = self.db.fetch_all({\"status\": \"vendido\"})\n            logging.info(\"Buscando cartelas no banco de dado \")\n            logging.info(\"Busca finalizada\")\n            if data is None:\n                return []",
+        "detail": "repository.RifaRepository",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "kind": 6,
+        "importPath": "repository.UserRepository",
+        "description": "repository.UserRepository",
+        "peekOfCode": "class UserRepository:\n    def __init__(self, db:Connection):\n        self.db = db\n    def get_user_by_username(self, username: str)->User:\n        logging.info(f\"Buscando usuário: {username} data: {self.db.fetch_one({'username':username})}\")\n        return self.db.fetch_one({\"username\":username})\n    def create_user(self, user:User)->User:\n        try:\n            self.db.insert_one(user.model_dump())\n            logging.info(f\"Usuário criado com sucesso: {user}\")",
+        "detail": "repository.UserRepository",
+        "documentation": {}
+    },
+    {
+        "label": "repo_cartelas",
+        "kind": 5,
+        "importPath": "routes.cartelas",
+        "description": "routes.cartelas",
+        "peekOfCode": "repo_cartelas = RifaRepository(Connection(\"cartelas\"))\nrouter = APIRouter(tags=[\"Cartelas\"])\n@router.get(\"/cartelas\")\nasync def get_sealed_points_with_status():\n    data = repo_cartelas.getAll()\n    if len(data) == 0:\n        return HTTPException(status_code=404, detail=\"Cartelas não encontradas\")\n    return {\"cartelas\": data}\n@router.get(\"/cartelas/all\")\nasync def get_sealed_points_all_data(token:str):",
+        "detail": "routes.cartelas",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routes.cartelas",
+        "description": "routes.cartelas",
+        "peekOfCode": "router = APIRouter(tags=[\"Cartelas\"])\n@router.get(\"/cartelas\")\nasync def get_sealed_points_with_status():\n    data = repo_cartelas.getAll()\n    if len(data) == 0:\n        return HTTPException(status_code=404, detail=\"Cartelas não encontradas\")\n    return {\"cartelas\": data}\n@router.get(\"/cartelas/all\")\nasync def get_sealed_points_all_data(token:str):\n    if token != \"ME5N8dujbEfe7c2lDV2zwMauM6L2\":",
+        "detail": "routes.cartelas",
+        "documentation": {}
+    },
+    {
+        "label": "pedidos",
+        "kind": 5,
+        "importPath": "routes.pedidos",
+        "description": "routes.pedidos",
+        "peekOfCode": "pedidos = Connection(\"cartelas\")\nrepo_order = OrderRepository(Connection(\"orders\"),pedidos)\nrouter = APIRouter(tags=[\"pedidos\"])\n@router.post(\"/order/new_order/\")\nasync def new_order(order:Order):\n    data = repo_order.create(order)\n    print(data)\n    if data is None:\n        return HTTPException(status_code=404, detail=\"Erro ao criar pedido, escolha novos pontos, atualize a página e tente novamente!\")\n    return {\"pedidos\": data}",
+        "detail": "routes.pedidos",
+        "documentation": {}
+    },
+    {
+        "label": "repo_order",
+        "kind": 5,
+        "importPath": "routes.pedidos",
+        "description": "routes.pedidos",
+        "peekOfCode": "repo_order = OrderRepository(Connection(\"orders\"),pedidos)\nrouter = APIRouter(tags=[\"pedidos\"])\n@router.post(\"/order/new_order/\")\nasync def new_order(order:Order):\n    data = repo_order.create(order)\n    print(data)\n    if data is None:\n        return HTTPException(status_code=404, detail=\"Erro ao criar pedido, escolha novos pontos, atualize a página e tente novamente!\")\n    return {\"pedidos\": data}\n@router.get(\"/orders/\")",
+        "detail": "routes.pedidos",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routes.pedidos",
+        "description": "routes.pedidos",
+        "peekOfCode": "router = APIRouter(tags=[\"pedidos\"])\n@router.post(\"/order/new_order/\")\nasync def new_order(order:Order):\n    data = repo_order.create(order)\n    print(data)\n    if data is None:\n        return HTTPException(status_code=404, detail=\"Erro ao criar pedido, escolha novos pontos, atualize a página e tente novamente!\")\n    return {\"pedidos\": data}\n@router.get(\"/orders/\")\nasync def get_orders(token:str):",
+        "detail": "routes.pedidos",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI(title=\"API de Rifas\", description=\"API para gerenciamento de rifas\", version=\"1.0\")\n# CORS middleware\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Permitir qualquer origem\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n#app.include_router(login_router)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "uri",
+        "kind": 5,
+        "importPath": "teste",
+        "description": "teste",
+        "peekOfCode": "uri = \"mongodb+srv://root:EhHXc7bWCbzGN8xd@teste.p64aple.mongodb.net/?retryWrites=true&w=majority&appName=Teste\"\nclient = MongoClient(uri, server_api=ServerApi(\"1\"))\ndb = client.teste\ncollection = db.cartelas\nprint(collection.update_one({\"numero\":991},\n                            {\"$set\": {\"status\":'disponivel', 'phone': '999999999', 'owner': 'None'}}))",
+        "detail": "teste",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "teste",
+        "description": "teste",
+        "peekOfCode": "client = MongoClient(uri, server_api=ServerApi(\"1\"))\ndb = client.teste\ncollection = db.cartelas\nprint(collection.update_one({\"numero\":991},\n                            {\"$set\": {\"status\":'disponivel', 'phone': '999999999', 'owner': 'None'}}))",
+        "detail": "teste",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "teste",
+        "description": "teste",
+        "peekOfCode": "db = client.teste\ncollection = db.cartelas\nprint(collection.update_one({\"numero\":991},\n                            {\"$set\": {\"status\":'disponivel', 'phone': '999999999', 'owner': 'None'}}))",
+        "detail": "teste",
+        "documentation": {}
+    },
+    {
+        "label": "collection",
+        "kind": 5,
+        "importPath": "teste",
+        "description": "teste",
+        "peekOfCode": "collection = db.cartelas\nprint(collection.update_one({\"numero\":991},\n                            {\"$set\": {\"status\":'disponivel', 'phone': '999999999', 'owner': 'None'}}))",
+        "detail": "teste",
+        "documentation": {}
+    }
+]

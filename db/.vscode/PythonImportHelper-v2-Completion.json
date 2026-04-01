@@ -1,0 +1,44 @@
+[
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo.mongo_client",
+        "description": "pymongo.mongo_client",
+        "isExtraImport": true,
+        "detail": "pymongo.mongo_client",
+        "documentation": {}
+    },
+    {
+        "label": "ServerApi",
+        "importPath": "pymongo.server_api",
+        "description": "pymongo.server_api",
+        "isExtraImport": true,
+        "detail": "pymongo.server_api",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "kind": 6,
+        "importPath": "connection",
+        "description": "connection",
+        "peekOfCode": "class Connection:\n    def __init__(self,collection:str):\n        \"\"\"Inicializa uma instância de conexão com o banco de dados\"\"\"\n        load_dotenv()  # Load environment variables from .env file\n        try:\n            # Get MongoDB credentials from environment variables\n            mongo_uri = \"mongodb+srv://root:EhHXc7bWCbzGN8xd@teste.p64aple.mongodb.net/?retryWrites=true&w=majority&appName=Teste\"\n            if not mongo_uri:\n                raise ValueError(\"MONGO_URI environment variable not set\")\n            # Create a MongoClient instance",
+        "detail": "connection",
+        "documentation": {}
+    }
+]
