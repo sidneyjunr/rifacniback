@@ -38,6 +38,8 @@ async def confirm_order(order_id:int,token:str):
     data = repo_order.confirm_order(order_id)
     if data is None:
         raise HTTPException(status_code=404, detail="Pedido não encontrado")
+    if isinstance(data, dict) and data.get("conflict"):
+        raise HTTPException(status_code=409, detail=data["detail"])
     return {"pedido": data}
 
 @router.post("/order/reject_order/{order_id}")

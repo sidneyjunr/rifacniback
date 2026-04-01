@@ -61,12 +61,15 @@ class OrderRepository:
             status=data_mongo["status"], phone=data_mongo["phone"], owner=data_mongo["owner"],
         )
 
-        # Atualiza cada cartela com os dados DO PEDIDO CONFIRMADO
+        # Verifica conflitos ANTES de alterar qualquer cartela
         for point in data_order.points:
             cartela = self.db_cartelas.fetch_one({"numero": point})
             if cartela and cartela["status"] == "vendido":
                 logging.error(f"{datetime.now()}: Ponto {point} já vendido")
-                return {"detail": f"Ponto {point} já foi vendido por outro pedido"}
+                return {"conflict": True, "detail": f"Ponto {point} já foi vendido por outro pedido"}
+
+        # Atualiza cada cartela com os dados DO PEDIDO CONFIRMADO
+        for point in data_order.points:
             self.db_cartelas.update_one(
                 {"numero": point},
                 {
