@@ -15,40 +15,40 @@ ADMIN_TOKEN = os.getenv("ADMIN_TOKEN")
 async def get_sealed_points_with_status():
     data = repo_cartelas.getAll()
     if len(data) == 0:
-        return HTTPException(status_code=404, detail="Cartelas não encontradas")
+        raise HTTPException(status_code=404, detail="Cartelas não encontradas")
     return {"cartelas": data}
 
 @router.get("/cartelas/all")
 async def get_sealed_points_all_data(token:str):
     if token != ADMIN_TOKEN:
-        return HTTPException(status_code=401, detail="Token inválido")
+        raise HTTPException(status_code=401, detail="Token inválido")
     data = repo_cartelas.getAllSealed()
     if len(data) == 0:
-        return HTTPException(status_code=404, detail="Cartelas não encontradas")
+        raise HTTPException(status_code=404, detail="Cartelas não encontradas")
     return {"cartelas": data}
 
 @router.get("/cartela/{id}")
 async def get_one_point(id:int,token:str):
     if token != ADMIN_TOKEN:
-        return HTTPException(status_code=401, detail="Token inválido")
+        raise HTTPException(status_code=401, detail="Token inválido")
 
     data = repo_cartelas.getOne(id)
     if data is None:
-        return HTTPException(status_code=404, detail="Cartela não encontrada")
+        raise HTTPException(status_code=404, detail="Cartela não encontrada")
     return {"cartela": data}
 
 @router.post("/cartela/{id}")
 async def sell_point(rifa:Rifa,token:str):
     if token != ADMIN_TOKEN:
-        return HTTPException(status_code=401, detail="Token inválido")
+        raise HTTPException(status_code=401, detail="Token inválido")
     data = repo_cartelas.update(rifa)
     if data is None:
-        return HTTPException(status_code=404, detail="Cartela não encontrada")
+        raise HTTPException(status_code=404, detail="Cartela não encontrada")
     return {"cartela": data}
 
 @router.get("/cartela/search/{phone}")
 async def search_points_by_phone(phone:str):
     data = repo_cartelas.get_by_phone(phone)
     if data is None:
-        return HTTPException(status_code=404, detail="Cartela não encontrada")
+        raise HTTPException(status_code=404, detail="Cartela não encontrada")
     return {"cartelas": data}
