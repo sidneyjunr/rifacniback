@@ -1,6 +1,7 @@
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 from dotenv import load_dotenv
+import certifi
 import os
 
 
@@ -15,7 +16,7 @@ class Connection:
                 raise ValueError("MONGO_URI environment variable not set")
 
             # Create a MongoClient instance
-            self.client = MongoClient(mongo_uri, server_api=ServerApi('1'))
+            self.client = MongoClient(mongo_uri, server_api=ServerApi('1'), tlsCAFile=certifi.where())
             db_name = os.getenv("DB_NAME", "rifacni")
             self.db = self.client[db_name]
             self.collection = self.db.get_collection(collection)
